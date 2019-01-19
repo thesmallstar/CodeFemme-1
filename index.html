@@ -12,11 +12,13 @@
 
     <!-- Bootstrap core CSS -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
 
   </head>
 
-  <body>
+  <body onload="myFunction()">
 
+   <div id="loader"></div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
       <div class="container">
@@ -58,6 +60,16 @@
     <!-- Bootstrap core JavaScript -->
     <script src="static/js/jquery.min.js"></script>
     <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var start;
+        function myFunction(){
+          start = setTimeout(showpage,2000);
+        }
+        function showpage(){
+          document.getElementById('loader').style.display="none";
+          document.getElementById('navbarResponsive').style.display="block";
+        }
+    </script>
 
   </body>
 
