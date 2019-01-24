@@ -5,7 +5,7 @@ body {
 }
 
 #main {
-	background: linear-gradient(to bottom, rgba(0,0,0,0.66) 100%, transparent), url(https://images.unsplash.com/photo-1531535701800-03b2bec4fbfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.66) 100%, transparent), url(https://images.unsplash.com/photo-1531535701800-03b2bec4fbfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
 	background-size: cover, cover;
 	background-position: center, center;
 	height: 100vh;
@@ -15,8 +15,199 @@ body {
 	align-items: center;
 }
 
+
+#about p {
+	/* text-align: center; */
+	color: #333;
+}
+
+section {
+	position: relative;
+	padding: 30px 0 50px;
+	background: white;
+	text-align: center;
+}
+
+section:last-of-type {
+	min-height: 20vh;
+}
+
+section.focus .page-header {
+	color: #907dda;
+}
+
+section.focus .page-header:after {
+	visibility: visible;
+	opacity: 1;
+}
+
+.section-header {
+	position: relative;
+	margin-bottom: 40px;
+	font-size: 26px;
+	font-weight: 400;
+	color: #333;
+	text-align: center;
+	line-height: 60px;
+	letter-spacing: 1px;
+}
+
+.section-header:after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 70px;
+	height: 2px;
+	background: #907dda;
+	-webkit-transform: translate(-50%, 0);
+	-webkit-transform: translate3d(-50%, 0, 0);
+	transform: translate(-50%, 0);
+	transform: translate3d(-50%, 0, 0);
+}
+
+.section-sub-header {
+	position: relative;
+	margin-bottom: 40px;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 60px;
+	letter-spacing: 1px;
+}
+
+.banner .banner-child {
+	padding: 25px 15px;
+	height: 500px;
+}
+
+.banner .bc-left {
+	color: #e7e6f1;
+	background: #907dda;
+}
+
+.banner .bc-right {
+	color: #333;
+	background: #F3F4F8;
+}
+
+.page-header {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 50px;
+	letter-spacing: 1px;
+	color: #333;
+	transition: color 0.2s ease-in;
+}
+
+box-el {
+	display: flex;
+	max-width: 1400px;
+	margin: auto;
+}
+
+.box {
+	height: 300px;
+	background: orange;
+	width: 33.3%;
+	margin: 0em .5em;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.box:hover .the-content-box {
+	transform: translateY(0%);
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.box:hover .the-content-box hr {
+	width: 20%;
+	transition-delay: 400ms;
+}
+
+.box:hover .the-content-box p {
+	opacity: 1;
+	transition: all 400ms ease;
+	transform: translateY(0%);
+	transition-delay: 600ms;
+}
+
+.box:hover .the-content-box a {
+	opacity: 1;
+	transform: translateX(0%);
+	transition-delay: 900ms;
+}
+
+.box-inner {
+	position: absolute;
+	height: 80%;
+	width: 90%;
+	top: 10%;
+	left: 5%;
+	overflow: hidden;
+}
+
+.the-content-box {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: rgba(74, 137, 205, 0.6);
+	color: white;
+	transform: translateY(80%);
+	transition: all 600ms ease;
+}
+
+.the-content-box h1 {
+	padding: 0.2em 0em 0em 0em;
+	margin: 0;
+	font-family: helvetica;
+}
+
+.the-content-box hr {
+	background: #4A89CD;
+	height: 3px;
+	border: none;
+	margin: 1em 0em 0em 0em;
+	width: 0;
+	transition: all 400ms ease;
+}
+
+.the-content-box p {
+	letter-spacing: 1px;
+	opacity: 0;
+	font-family: arial !important;
+	transition: all 900ms ease;
+	transform: translateY(40%);
+	font-weight: lighter;
+}
+
+.the-content-box a {
+	display: inline-block;
+	background: #4A89CD;
+	font-family: helvetica;
+	padding: 0.5em 1em;
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+	position: relative;
+	transition: all 600ms ease;
+	opacity: 0;
+	transform: translateX(20%);
+}
+
+.the-content-box a:hover {
+	background: #1B324B;
+}
+
+.content-box-inner {
+	padding: 0em 1em;
+}
+
+
 h1 {
-	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-size: 2rem;
 	display: inline-block;
 	padding: 1rem;
