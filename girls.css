@@ -69,12 +69,11 @@ h1:after {
 	background: 
 	/* color overlay */ 
 	  linear-gradient(
-		rgba(240, 212, 0, 0.45), 
-		rgba(0, 0, 0, 0.45)
+		rgba(0, 24, 240, 0.363), 
+		rgba(0, 0, 0, 0.836)
 	  ),
 	  /* image to overlay */
 	  url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
-	  align-content: center !important;
 	  padding-top: 2%;
   }
 
@@ -88,7 +87,7 @@ h1:after {
 	margin: 20px 0;
   }
   .footertext {
-	color: #ffffff;
+	color: #131212;
 	text-align: center;
   }
 
@@ -97,6 +96,13 @@ h1:after {
   }
 
   .img-circle {
-	  height: 40px;
-	  width: 40px;
+	  height: 30px;
+	  width: 30px;
+	  align-content: flex-end;
+  }
+
+  #right {
+	  align-self: center;
+	  justify-self: end;
+	  
   }
