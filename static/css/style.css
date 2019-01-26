@@ -10,9 +10,9 @@
   top : 65%;
   margin: 0 auto;
 }
-#content{
-  display : none;
+#my{
+  display:block;
 }
-#navbar{
+#footer{
   display: none;
 }
