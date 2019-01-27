@@ -1,0 +1,18 @@
+#loader{
+  position: absolute;
+  left : 40%;
+  top : 28%;
+  margin: 0 auto;
+}
+#preloader{
+  position: absolute;
+  left : 14%;
+  top : 65%;
+  margin: 0 auto;
+}
+#my{
+  display:block;
+}
+#footer{
+  display: none;
+}
