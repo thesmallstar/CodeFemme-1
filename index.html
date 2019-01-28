@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Half Slider - Start Bootstrap Template</title>
+
+  <title>Bare - Start Bootstrap Template</title>
   <title>CodinGirl</title>
-  <!-- Bootstrap core CSS -->
 
-  <link href="girls.css" rel="stylesheet">
-  <link href="static/css/bootstrap.min.css" rel="stylesheet">
-  <script src="static/js/jquery.min.js"></script>
+    <!-- Bootstrap core CSS -->
 
-</head>
+    <link href="girls.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+    <script src="static/js/jquery.min.js"></script>
 
-<body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Code</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contributors">Contributors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+  </head>
+
+  <body onload="myFunction()">
+
+   <div id="loader">
+    <img src="loader.svg" alt="Loader Animation">
+   </div>
+   <div id="preloader">
+     <img src="text.svg" alt="Loader Animation">
+   </div>
+   <div style="display:none;" id="my" class="Animation-top" >
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Code</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
       </div>
     </div>
   </nav>
@@ -165,11 +175,35 @@
         </div>
       </div>
     </div>
-    <div id="main" class="is-loading">
-      <h1>
-        Girls Do Code
-      </h1>
-    </div>-->
-</body>
 
 </html>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+ 
+
+   
+     
+     
+     </div>
+    <script>
+      var start;
+      function myFunction(){
+        start = setTimeout(showpage,2000);
+      }
+      function showpage(){
+        document.getElementById('loader').style.display="none";
+        document.getElementById('preloader').style.display="none";
+        document.getElementById('my').style.display="block";
+        document.getElementById('footer').style.display="block";
+      }
+  </script>
+ </body>
+
+</html>
+
+
+
+
+
