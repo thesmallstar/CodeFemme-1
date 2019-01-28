@@ -1,6 +1,7 @@
 body {
 	background: #445;
-	color: #FFF !important;
+	/*color: #FFF !important;*/
+	margin-bottom: 60px;
 }
 
 /* #main {
@@ -507,4 +508,84 @@ h1 {
 	opacity: 1;
 	transform: scale(1);
 	transition: transform 0.5s ease, opacity 1s ease;
+	color: #FFF !important;
 }
+
+.is-loading h1 {
+	transform: scale(0.9);
+	opacity: 0;
+}
+
+h1:before,
+h1:after {
+	height: 2px;
+	width: 100%;
+	content: "";
+	background: white;
+	display: block;
+	position: absolute;
+	transition: width 0.4s ease;
+	transition-delay: 0.8s;
+}
+
+h1:before {
+	top: 0;
+	left: 0;
+}
+
+h1:after {
+	bottom: 0;
+	right: 0;
+}
+
+.is-loading h1:before,
+.is-loading h1:after {
+	width: 0;
+}
+
+#footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	/*height: 280px;*/
+	background: 
+	/* color overlay */ 
+	  linear-gradient(
+		rgba(0, 24, 240, 0.363), 
+		rgba(0, 0, 0, 0.836)
+	  ),
+	  /* image to overlay */
+	  url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
+	  padding-top: 2%;
+  }
+
+  
+  .container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+  }
+  .container .text-muted {
+	margin: 20px 0;
+  }
+  .footertext {
+	color: #131212;
+	text-align: center;
+  }
+
+  #imp {
+	  text-align: center !important;
+  }
+
+  .img-circle {
+	  height: 30px;
+	  width: 30px;
+	  align-content: flex-end;
+  }
+
+  #right {
+	  align-self: center;
+	  justify-self: end;
+	  
+  }
