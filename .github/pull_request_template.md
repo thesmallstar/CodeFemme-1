@@ -2,18 +2,29 @@
 
 Please include a brief description of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-Fixes # (issue)
+Fixes #(issue)
 
 ## Type of change
 
 <!--Please delete options that are not relevant.-->
+<!--Type 'x' to mark relevant boxes-->
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
+## Live Gh-Pages Link
+
+[Upload link here]
+
+## Screenshot of issue solved
+
+[Upload screenshot here]
+
 # Checklist:
+
+<!--Type 'x' to mark relevant boxes-->
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
