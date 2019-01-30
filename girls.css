@@ -155,7 +155,7 @@ body {
 	z-index: 1;
 	height: 100vh;
 	max-height: 1080px;
-	background-image: url("women-in-tech.jpg");
+	background-image: url("assets/img/women-in-tech.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
