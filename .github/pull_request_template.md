@@ -16,7 +16,7 @@ Fixes #(issue)
 
 ## Live Gh-Pages Link
 
-(Upload link here)
+[Live Link](Upload Link here)
 
 ## Screenshot of issue solved
 
