@@ -476,9 +476,9 @@ box-el {
 
 .the-content-box a {
 	display: inline-block;
-	background: #4A89CD;
+	/* background: #4A89CD; */
 	font-family: helvetica;
-	padding: 0.5em 1em;
+	padding: 0.5em 0.5em;
 	color: white;
 	text-decoration: none;
 	font-weight: bolder;
