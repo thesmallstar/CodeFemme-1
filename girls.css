@@ -540,3 +540,7 @@ h1:after {
 .is-loading h1:after {
 	width: 0;
 }
+
+.col{
+	color: #F3F4F8 !important;
+}
