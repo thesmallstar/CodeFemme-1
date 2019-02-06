@@ -155,7 +155,7 @@ body {
 	z-index: 1;
 	height: 100vh;
 	max-height: 1080px;
-	background-image: url("women-in-tech.jpg");
+	background-image: url("assets/img/women-in-tech.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -476,9 +476,9 @@ box-el {
 
 .the-content-box a {
 	display: inline-block;
-	background: #4A89CD;
+	/* background: #4A89CD; */
 	font-family: helvetica;
-	padding: 0.5em 1em;
+	padding: 0.5em 0.5em;
 	color: white;
 	text-decoration: none;
 	font-weight: bolder;
@@ -539,4 +539,16 @@ h1:after {
 .is-loading h1:before,
 .is-loading h1:after {
 	width: 0;
+}
+
+.footercolor{
+	color: #F3F4F8 !important;
+}
+
+.hameid-loader-overlay {
+	width: 100%;
+	height: 100%;
+	background: url('preloader.gif') center no-repeat #FFF;
+	z-index: 99999;
+	position: fixed;
 }
